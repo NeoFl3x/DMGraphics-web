@@ -217,12 +217,13 @@ nav .enlaces a:hover{
 
 .card{
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .content-card{
-  width: 31%;
+  width: 22%;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
   overflow: hidden;
   height:400px;
