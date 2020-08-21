@@ -119,7 +119,7 @@ nav{
 }
 
 .nav2{
-  background: var(--fondo);
+  background: #3f406ebf;
   height:100px;
   color:#a3f7ebc7;
 }
@@ -304,9 +304,9 @@ nav .enlaces a:hover{
 }
 
 .cont-work{
-  width: 31%;
+  width: 32%;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
-  height:300px;
+  height:285px;
   overflow: hidden;
   margin-bottom: var(--espacios-contenido);
 }
@@ -403,7 +403,8 @@ footer p{
 
 @media screen and (max-width: 700px){
   .nav2{
-    color: #fff;
+    color: #a3f7ebc7;
+    opacity: 0.7;
   }
 
   .icono{
@@ -416,7 +417,7 @@ footer p{
     top:80px;
     background: #2c3e50;
     left: 0;
-    height: 100%;
+    height: 33%;
     transition: 1s;
     width: 0;
     overflow: hidden;
@@ -466,7 +467,8 @@ footer p{
   }
 
   .cont-work{
-    width: 85%;
+    width: 87%;
+    height: 250px;
   }
 
   .marca-logo{
