@@ -297,6 +297,34 @@ nav .enlaces a:hover{
   color:#a3f7ebc7;
 }*/
 
+#boton-up {
+  width: 25px;
+  height: 30px;
+  background-color: #a3f7ebc7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;  
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 400ms ease;
+  transform: scale(0);
+  opacity: 0.7;     
+  z-index: 1;
+
+}
+
+#boton-up img {
+  width: 13px;
+}
+
+#boton-up:hover {
+  transform: scale(1.2);
+}
+
 .galeria-work{
   display:flex;
   flex-wrap: wrap;

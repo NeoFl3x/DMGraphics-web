@@ -85,3 +85,28 @@ var animateButton = function(e) {
   for (var i = 0; i < bubblyButtons.length; i++) {
     bubblyButtons[i].addEventListener('click', animateButton, false);
   }
+
+
+  //Boton Up Rocket
+
+  document.getElementById("boton-up").addEventListener("click", scrollUp)
+
+  function scrollUp(){
+      var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentScroll > 0) {
+          window.requestAnimationFrame(scrollUp);
+          window.scrollTo (0, currentScroll - (currentScroll / 20));
+          botonUp.style.transform = "scale(0)";
+      }
+  }
+
+  botonUp = document.getElementById("boton-up");
+
+  window.onscroll = function(){
+    var scroll = document.documentElement.scrollTop;
+    if(scroll >200){
+        botonUp.style.transform = "scale(1)";
+    }else if(scroll < 200){
+        botonUp.style.transform = "scale(0)";
+    }
+  }
