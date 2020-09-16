@@ -4,7 +4,7 @@
   --color1: #fffb19d6;
   --color2: rgba(23, 180, 83, 0.877);
   --color3: rgba(11,194,211, 0.623);
-  --fondo: #9d566a;
+  --fondo: rgba(245, 118, 118, 0.8);
   --titulos: 33px;
   --margenes: 60px;
   --espacios: 10px;
@@ -111,8 +111,8 @@ nav{
 
 .nav1{
   background: transparent;
+  color:#00f7d3;
   height: 80px;
-  color:#a3f7ebc7;
 }
 .nav1 img {
   opacity: 0.9;
@@ -359,6 +359,7 @@ nav .enlaces a:hover{
   line-height: 30px;
   font-weight: 300;
   color: #a3f7ebc7;
+  font-size: 18px;
 }
 
 /* Footer */
@@ -431,8 +432,7 @@ footer p{
 
 @media screen and (max-width: 700px){
   .nav2{
-    color: #a3f7ebc7;
-    opacity: 0.7;
+    color:#00f7d3;
   }
 
   .icono{
